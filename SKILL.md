@@ -2,7 +2,7 @@
 name: incognito-mode
 description: "Incognito mode v2.2.1: defense-in-depth, zero trace left."
 version: 2.2.1
-author: Rodion + Hermes (7-round cross-audited, Python scripts hardened)
+author: 幻灭文学出版社 + Hermes (7-round cross-audited, Python scripts hardened)
 license: MIT
 metadata:
   hermes:

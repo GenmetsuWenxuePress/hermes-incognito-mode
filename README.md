@@ -103,4 +103,4 @@ MIT — see [LICENSE](LICENSE)
 
 ## Author
 
-Rodion + Hermes (7-round cross-audited, Python scripts hardened)
+幻灭文学出版社 + Hermes (7-round cross-audited, Python scripts hardened)

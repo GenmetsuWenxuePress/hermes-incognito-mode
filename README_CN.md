@@ -127,4 +127,4 @@ MIT — 详见 [LICENSE](LICENSE)
 
 ## 作者
 
-Rodion + Hermes（7 轮交叉审计，Python 脚本硬化）
+幻灭文学出版社 + Hermes（7 轮交叉审计，Python 脚本硬化）
