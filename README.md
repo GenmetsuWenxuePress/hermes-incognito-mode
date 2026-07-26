@@ -71,6 +71,32 @@ Mid-session commands:
 | `/incognito export <path>` | Export results to persistent storage |
 | `/incognito abort` | Emergency skip to secure destruction |
 
+## Ending an incognito session
+
+> ⚠️ **Manual step required.** The agent does NOT auto-destroy — you must explicitly end the session.
+
+When you're done, tell the agent:
+
+```
+确认销毁
+```
+
+Or for emergency skip straight to destruction:
+
+```
+/incognito abort
+```
+
+The agent will then:
+1. Run the 10-step reverse audit (Phase 4)
+2. Securely wipe all temp files
+3. Present a final audit report (Phase 5)
+4. Destroy the session container
+
+> 💡 **15-minute TTL reminder**: if you walk away mid-session, the agent will prompt you to end it after 15 minutes of inactivity. Auto-destruction requires `[Framework L2]` support (see §Limitations in [README_CN.md](README_CN.md)).
+
+Then start a **new session** (`/new`) to ensure the old session container is fully purged.
+
 ## License
 
 MIT — see [LICENSE](LICENSE)
