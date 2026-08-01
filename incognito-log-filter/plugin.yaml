@@ -1,0 +1,3 @@
+name: incognito-log-filter
+description: "Redact web-search queries, URLs and user-message previews from logs while incognito sentinel is active."
+version: 0.1.0
