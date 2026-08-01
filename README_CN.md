@@ -143,6 +143,11 @@ Agent 随后会执行：
 
 **推荐组合**：本 Skill（Agent 层）+ 私有化模型 Ollama（API 层）+ `swapoff -a`（OS 层）= 接近 Tails 级别的隐私保护，同时保持日常开发便利性。
 
+### v2.6.0
+- **4.9r 异常关闭补救协议** — 哨兵残留 + session 已删 → 幂等重跑 4.6b（现场实证：16 条明文清洗成功）
+- **3.6 环境感知检查** — serve/gateway 后端不加载用户插件（`_plugin_cli_discovery_needed` 跳过内置命令），检查现按运行环境判定
+- **Hermes 核心 patch** — cmd_dashboard 显式 `discover_plugins()`，desktop/serve 可加载用户插件（16 行，待上游合并）
+
 ## 更新日志
 
 ### v2.5.9
