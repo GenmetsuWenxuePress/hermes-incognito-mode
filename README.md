@@ -2,7 +2,7 @@
 
 [中文版 (Chinese)](README_CN.md) | [English](README.md)
 
-> Browser incognito mode — upgraded for AI agents. Defense-in-depth, zero trace left.
+> Please test with non-privacy information before official use.
 
 ## What is this?
 
