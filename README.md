@@ -1,4 +1,4 @@
-# 🔒 Hermes Incognito Mode v2.5.9
+# 🔒 Hermes Incognito Mode v2.6.0
 
 [中文版 (Chinese)](README_CN.md) | [English](README.md)
 
